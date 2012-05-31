@@ -5,7 +5,7 @@ import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 public class Consumer implements MessageListener {
-    // URL of the JMS server
+    // URL of the JMS sessssrver
     private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
 
     // Name of the queue we will receive messages from
